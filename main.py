@@ -4,7 +4,7 @@ import os
 from flask import Flask
 
 # توكن البوت
-TOKEN = os.getenv("8356793857:AAEB7us99BFD5jQCNGbth9VOXyiJ7XNdf2U")
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 bot = telebot.TeleBot(TOKEN)
 
 # عد من 10 إلى 0
